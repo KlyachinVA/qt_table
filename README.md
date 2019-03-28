@@ -12,9 +12,13 @@ like this
 
 
 from PyQt5 import QtWidgets
+
 import sys
+
 import csv_table as ct
+
 import numpy as np
+
 import pandas as pd
 
 if __name__ == "__main__":
