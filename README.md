@@ -8,23 +8,5 @@ To make window with table place the one of the following objects in constructor 
 2. numpy 2-dimensional array
 3. pandas DataFrame object
 
-like this
 
-
-from PyQt5 import QtWidgets
-
-import sys
-
-import csv_table as ct
-
-import numpy as np
-
-import pandas as pd
-
-if __name__ == "__main__":
-    app = QtWidgets.QApplication(sys.argv)
-    
-    # Пример для csv файла
-    main1 = ct.CSV_Table('./data/y_train.csv')
-    main1.show()
     
