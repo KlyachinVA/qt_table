@@ -9,7 +9,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     
     # Пример для csv файла
-    main1 = ct.CSV_Table('./data/y_train.csv')#QtWidgets.QLabel('Text')
+    main1 = ct.CSV_Table('./data/y_train.csv')
     main1.resize(500,500)
     
     # Пример для двумерного numpy массива
