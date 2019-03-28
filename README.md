@@ -1,4 +1,4 @@
-# qt_table
+
 View two dimensional data using PyQt5 QTableWidget 
 
 If you want to view some two dimensional data you can use sript qt_table.py as a example. 
@@ -9,7 +9,8 @@ To make window with table place the one of the following objects in constructor 
 3. pandas DataFrame object
 
 like this
-# -*- coding: utf-8 -*-
+
+
 from PyQt5 import QtWidgets
 import sys
 import csv_table as ct
