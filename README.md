@@ -9,4 +9,9 @@ To make window with table place the one of the following objects in constructor 
 3. pandas DataFrame object
 
 
+   Note that for CSV file delimeter the semicolumn is used by default.
+
+   
+
+
     
